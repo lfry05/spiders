@@ -8,6 +8,12 @@ body{
     align-items: center;
     display: flex;
     margin: auto;
-    flex-direction: column;
-    
+    flex-direction: column;  
+    border: solid black;
+}
+
+@media screen and (max-width: 800px){
+    .container{
+        width: 80%;
+    }
 }
