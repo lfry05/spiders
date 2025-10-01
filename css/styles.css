@@ -1,6 +1,10 @@
 body{
-    background-color: darkcyan;
+    background-color: #42113c;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: bisque;
+}
+
+a{
     color: bisque;
 }
 
@@ -9,11 +13,33 @@ body{
     display: flex;
     margin: auto;
     flex-direction: column;  
-    border: solid black;
+}
+
+.container p{
+    width: 70%;
+}
+
+.container img{
+    width: 50%;
+}
+
+.card{
+    background-color: #6bd425;
+    color: #1c0118;
+    border: 0.2em solid black;
+    width: 70%;
+    align-items: center;
+    display: flex;
+    flex-direction: column; 
+    margin: 5%;
 }
 
 @media screen and (max-width: 800px){
     .container{
         width: 80%;
+    }
+
+    .card{
+        padding: 5%;
     }
 }
